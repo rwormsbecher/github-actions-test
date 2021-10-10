@@ -4,7 +4,8 @@ on:
   # schedule:
   #   - cron: "*/5 * * * *"
 
-  # push: 
+  repository_dispatch:
+  
   pull_request:
     types: [closed, assigned, opened, reopened]
 
